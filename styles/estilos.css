@@ -16,18 +16,47 @@ ul{
 .logo{
     height: 70px;
 }
-.mainButton{
-    background-color: #1bb76e;
-    color: white;
+
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.mainButton{
+    background-color: #1bb76e;
+    color: white;
     box-shadow: 2px 2px gray;
 }
 
 .mainButton:hover{
-    cursor: pointer;
     background-color: #29d183;
-    transform: scale(1.2);
+}
+
+.secondaryButton {
+    background-color: #66d8f5;
+    color: white;
+}
+
+.secondaryButton:hover {
+    box-shadow: 1px 1px #788081;
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.buscar:focus-within {
+    border: 1px solid blue;
+}
+.buscar > input {
+    outline: none;
+    border: 0px;
 }
