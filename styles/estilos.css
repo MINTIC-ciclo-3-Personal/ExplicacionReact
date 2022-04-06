@@ -29,7 +29,7 @@ ul{
 
 .mainButton:hover{
     cursor: pointer;
-    background-color: #29d183;
+    background-color: #1dd880;
     transform: scale(1.2);
 >>>>>>> 5-crear-boton-nuevo-post
 }
