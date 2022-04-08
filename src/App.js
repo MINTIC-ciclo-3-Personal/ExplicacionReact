@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './styles/estilos.css';
 import borderCollie from './media/border_collie.jpg';
 import rhodesianRidgeback from './media/rhodesian.jpg';
+import logoPagina from './media/perrologo.jpg';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header>
         <ul className="navbar">
           <li>
-            <img src="./media/perrologo.jpg" alt="Logo perro" className="logo" />
+            <img src={logoPagina} alt="Logo perro" className="logo" />
           </li>
           <li>
             <div>
