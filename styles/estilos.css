@@ -114,3 +114,15 @@ ul{
     border-radius: 10px;
 }
 
+.reactions{
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
